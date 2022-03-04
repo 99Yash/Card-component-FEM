@@ -1,0 +1,120 @@
+body {
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+  background-color: #090b1a;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b1938;
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  padding: 5rem;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  font-family: "Inter";
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #dbf1f1;
+  width: 100%;
+}
+
+.text__bold {
+  -webkit-box-flex: 0.32;
+      -ms-flex: 0.32;
+          flex: 0.32;
+}
+
+.text__description {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.3rem;
+  line-height: 1.32rem;
+  color: #ebe0e0;
+}
+
+.text__stats {
+  font-size: 0.88rem;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text__stats--number {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.text-bottom {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 0.6rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#purple {
+  display: inline;
+  color: #a858da;
+}
+
+.image {
+  background-size: cover;
+  padding-left: 5rem;
+  max-width: 45%;
+}
+/*# sourceMappingURL=main.css.map */
